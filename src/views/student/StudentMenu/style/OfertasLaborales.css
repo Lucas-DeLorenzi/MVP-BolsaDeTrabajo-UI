@@ -1,0 +1,146 @@
+.job-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+.job-filters {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.job-filters.dark input, select {
+    background-color: #14171A;
+}
+
+.job-list.dark {
+    background: #14171A;
+    color: white;
+}
+
+.job-ul.dark {
+    background: #14171A;
+}
+
+.job-description.dark {
+    background-color: #14171A;
+    color: white;
+}
+
+.job-filters input, select {
+    background-color: #E1E8ED;
+    border: 1px solid rgb(163, 159, 159,0.6);
+    border-radius: 15px;
+    
+}
+
+.job-filters input::placeholder{
+    text-align: center;
+}
+
+.job-filters input  {
+    width: 300px;
+    height: 35px;
+    text-align:center;
+}
+
+.job-filters.dark input {
+    color: white;
+}
+
+.job-filters.dark input::placeholder {
+    color: white;
+}
+
+.job-filters select {
+    width: 50px;
+    text-align: center;
+}
+
+.job-list {
+    border: 1px solid rgb(122, 122, 122);
+    overflow-y: scroll;
+    background-color: #E1E8ED;
+    width: 30%;
+}
+
+.job-ul {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background-color: #E1E8ED;
+    
+   
+}
+
+.job-list::-webkit-scrollbar {
+    display: none;
+  }
+
+.job-description {
+    border: 1px solid rgb(122, 122, 122);
+    padding: 1%;
+    width: 50%;
+    background-color: #E1E8ED;
+}
+
+.job-cards {
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid rgb(196, 193, 193);
+    cursor: pointer;
+    
+}
+
+.job-cards:hover {
+    background-color: #7abbeb ;
+    transition: 0.4s;
+}
+.job-cards:hover.dark, .selected-card.dark {
+    background-color:  #11588a;
+}
+
+
+
+.selected-card {
+    background-color: #7abbeb ;
+}
+
+
+.button-postularse {
+    background: #156ead;
+    border-radius: 28px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 1.5%;
+    text-decoration: none;
+    border: 1px solid rgb(22, 77, 107);
+
+    color: white;
+}
+
+.button-postularse:hover {
+    transition: 0.7s;
+    background-color: #14171A;
+}
+
+.job-list::-webkit-scrollbar {
+    background-color: #E1E8ED;
+    width: 12px;  
+}
+
+.job-list::-webkit-scrollbar-thumb {
+    background-color: #7d868f;
+    border-radius: 20px;
+}

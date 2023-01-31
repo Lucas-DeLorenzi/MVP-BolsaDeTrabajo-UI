@@ -1,0 +1,42 @@
+
+
+.container-sign {
+  margin-top: 10%;
+}
+
+.border-sign {
+    width: 70%;
+    border: 1px solid rgb(165, 159, 159);
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 12%;
+} 
+
+
+
+#main-container-signup label {   
+    font-weight: bold;
+}
+
+.buttons-signup Button{
+    width: 50%;
+}
+
+.buttons-signup {
+    display: flex;
+    
+}
+
+.title-signup {
+    font-size: 30px;
+}
+
+.back-button {
+    width: 10%;
+}
+
+.nav-registro {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+}

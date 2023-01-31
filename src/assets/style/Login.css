@@ -1,0 +1,112 @@
+#main-container {
+  place-items: center center;
+  background: white;
+  width: 100%;
+  margin-top: 12%;
+}
+
+#sing-in-form {
+  max-width: 332px;
+  margin-right: 23%;
+  
+}
+
+.form-control:focus {
+  z-index: 5;
+}
+
+.bootstrap-logo {
+  width: 72px;
+  height: 72px;
+}
+
+Button {
+  margin: 3px;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-primary.dark {
+  background-color: var(--background-dark);
+  color: var(--color-dark);
+}
+.btn-primary.dark:hover {
+  transition: 0.7s;
+}
+.error {
+  color: red;
+  height: 24px;
+}
+
+.show-error {
+  opacity: 1;
+  margin-left: 9%;
+}
+
+.hide-error {
+  opacity: 0;
+}
+
+.exp-logo {
+  width: 50%;
+}
+
+.input-login {
+  width: 400px;
+  margin-left: 70px;
+}
+
+#sing-in-form button {
+  margin-left: 70px;
+  width: 121%;
+}
+
+#sing-in-form img {
+  margin-bottom: 10%;
+}
+
+.label-input {
+  margin-right: 42%;
+  font-weight: 700;
+}
+
+.label-input-contrasenia {
+  font-weight: 700;
+  margin-right: 30%;
+}
+
+
+
+.rec-contrasenia {
+  display: flex;
+  justify-content: center;
+  margin-right: 8%;
+  width: 100%;
+  color: rgb(44, 150, 189);
+  cursor: pointer;
+}
+
+.password {
+  justify-content: center;
+
+}
+
+.password-but {
+  margin-left: 80%;
+}
+
+.test-asd {
+  border: 1px solid rgb(173, 173, 173);
+    border-radius: 15px;
+}
+
+.item-pw {
+  padding: 15px;
+}
+
+label {
+  font-weight: bold;
+}

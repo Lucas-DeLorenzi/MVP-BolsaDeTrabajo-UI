@@ -1,0 +1,285 @@
+.form-alumno {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 80%;
+  background: #e1e8ed;
+  padding-top: 1%;
+  /*  border-radius: 15px; */
+}
+.form-alumno-conocimientos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  background: #e1e8ed;
+  padding-top: 1%;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.form-alumno-conocimientos input {
+  color: white;
+  
+}
+
+
+.form-alumno-conocimientos select {
+  color: white;
+  background-image:  linear-gradient(45deg, transparent 50%, #14171A 60%),
+  linear-gradient(135deg, #14171A 40%, transparent 50%) !important;
+  background-position:
+    calc(100% - 30px) 14px,
+    calc(100% - 20px) 14px,
+    100% 0;
+    background-size:
+    10px 10px,
+    10px 10px;
+}
+
+.form-alumno-conocimientos.dark select{
+
+  background-image:  linear-gradient(45deg, transparent 50%, rgb(255, 255, 255) 60%),
+  linear-gradient(135deg, rgb(255, 255, 255) 40%, transparent 50%) !important;
+  background-position:
+    calc(100% - 30px) 14px,
+    calc(100% - 20px) 14px,
+    100% 0;
+    background-size:
+    10px 10px,
+    10px 10px;
+/* background-position:
+  calc(100% - 30px) 14px,
+  calc(100% - 20px) 14px,
+  100% 0; */
+/* background-size:
+  10px 10px,
+  10px 10px; */
+  background-color: #14171A;
+
+}
+/* 
+.form-alumno-conocimientos.dark .form-select {
+  color: black;
+  background: white;
+} */
+
+.form-alumno-conocimientos button {
+  width: 30%;
+  height: 30%;
+  padding-top: 1%;
+  margin-top: 10%;
+}
+
+.form-alumno-conocimientos .input-alumno-button {
+    margin-top: 9%;
+}
+
+.form-alumno-conocimientos.dark:after{
+  color: white;
+  background-color: black;
+}
+
+.form-alumno-conocimientos.dark {
+  background: #14171A;
+  color: white;
+}
+
+
+
+.input-group-pers {
+  padding: 1%;
+}
+
+.boton1 {
+  width: 100%;
+  background-color: #e1e8ed;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 1.5%;
+  text-decoration: none;
+  border: 1px solid rgb(0, 119, 181);
+  background-color: #e1e8ed;
+  color: rgb(0, 119, 181);
+}
+
+.boton-univ {
+  width: 100%;
+  background-color: #e1e8ed;
+  margin-top: 6%;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 1.5%;
+  text-decoration: none;
+  border: 1px solid rgb(0, 119, 181);
+  background-color: #e1e8ed;
+  color: rgb(0, 119, 181);
+}
+
+.boton-univ:hover,
+.boton1:hover {
+  transition: 0.7s;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.container-alumno {
+  display: flex;
+  justify-content: center;
+}
+
+.form-alumno select {
+  background-image: none !important;
+}
+
+.form-alumno.dark {
+  background: #14171a;
+  color: white;
+}
+
+.form-datos-personales {
+  padding: 1%;
+}
+
+.form-alumno.dark input {
+  background: #14171a;
+}
+
+.form-alumno.dark select {
+  background: #14171a;
+  color: white;
+}
+
+.form-alumno.dark .form-control {
+  color: white;
+}
+
+.form-alumno.dark .form-control {
+  background-color: #14171a;
+}
+
+.input-alumno {
+  padding: 15px;
+}
+
+.dni-container {
+  display: flex;
+}
+
+.select-dni {
+  width: 20%;
+  height: 50%;
+}
+
+.dni-input {
+  width: 100%;
+}
+
+.labels-carreras {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1e8ed;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(110, 110, 110);
+  font-family: Arial;
+  font-size: 17px;
+  margin: 0;
+  padding: 1px 30px;
+  text-decoration: none;
+}
+
+.labels-carreras.dark {
+  background-color: #14171a;
+  color: rgb(182, 180, 180);
+}
+
+.labels-carreras.dark:hover {
+  color: white;
+}
+
+.labels-carreras.dark:focus {
+  border-bottom: 2px solid white;
+  color: white;
+} 
+
+.labels-carreras p {
+  margin: 2px;
+}
+
+.labels-carreras:hover {
+  color: black;
+}
+
+.labels-carreras:focus {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.buttons-carreras.dark {
+  background: #14171a;
+}
+
+.buttons-carreras {
+  background-color: #e1e8ed;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.table-knowledge {
+  border: 1px solid black;
+  width: 80%;
+  background: #e1e8ed;
+  text-align: center;
+}
+
+.table-knowledge.dark {
+  border: 1px solid white;
+  color: white;
+  background: #14171a;
+}
+
+.container-alumno-actualizar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-knowledge button {
+  border: 1px solid rgb(0, 119, 181);
+  background-color: #e1e8ed;
+  color: rgb(0, 119, 181);
+}
+
+.table-knowledge.dark button  {
+  background-color: #14171A;
+  color: white;
+  border: 1px solid rgb(16, 137, 202);
+}
+
+.table-knowledge button:hover {
+  transition: 0.7s;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.error-histo.dark {
+  color: white;
+
+}
+
+.errors-knowledge.dark {
+  color: white;
+}

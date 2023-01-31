@@ -1,0 +1,62 @@
+.buttons-company {
+    background-color: #E1E8ED;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.buttons-company.dark {
+    background: #14171A;
+    padding-left: 1%;
+}
+
+.buttons-company button {
+    margin-left: 1%;
+}
+
+.labels-ofertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E1E8ED;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color: rgb(110, 110, 110);
+	font-family:Arial;
+	font-size:17px;
+    margin: 0;
+	padding:1px 30px;
+	text-decoration:none;
+}
+
+.labels-ofertas p {
+    margin: 0;
+}
+
+.labels-ofertas:hover {
+    color: black;
+}
+
+.labels-ofertas:focus {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.labels-ofertas.dark {
+    background-color: #14171A;
+    color: rgb(182, 180, 180);
+}
+
+.labels-ofertas.dark:hover {
+    color: white;
+}
+
+.labels-ofertas.dark:focus {
+    border-bottom: 2px solid white;
+    color: white;
+}

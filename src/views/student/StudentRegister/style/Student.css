@@ -1,0 +1,21 @@
+
+
+.test {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.check {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 40% !important;
+}
+
+.test.dark {
+    background: #14171A;
+    color: white;
+}
+
+.test.dark td {
+    color: white !important;
+}

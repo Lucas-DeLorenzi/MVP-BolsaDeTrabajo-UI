@@ -1,0 +1,22 @@
+.myButton {
+	background-color:#4550c7;
+	border-radius:28px;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 28px;
+	text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttons-table {
+    margin-left: 20%;
+    width: fit-content;
+
+}

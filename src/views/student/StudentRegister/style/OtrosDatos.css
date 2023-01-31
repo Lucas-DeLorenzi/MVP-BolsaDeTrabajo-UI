@@ -1,0 +1,84 @@
+.form-alumno-otros-datos {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    background: #E1E8ED;
+    padding-top: 1%;
+}
+
+.form-alumno-otros-datos select {
+    background-image: none !important;
+}
+
+.form-alumno-otros-datos.dark {
+    background: #14171A;
+    color: white;
+}
+
+.form-alumno-otros-datos.dark input {
+    background: #14171A;
+}
+.form-alumno-otros-datos.dark select {
+    background: #14171A;
+    color:white;
+}
+
+.form-alumno-otros-datos.dark .form-control {
+    color:white;
+}
+
+
+
+
+.form-alumno-otros-datos.dark .form-control {
+    background-color: #14171A;
+}
+
+.button-elim {
+    border: 1px solid rgb(0, 119, 181);
+  background-color: #e1e8ed;
+  color: rgb(0, 119, 181);
+  margin-bottom: 12px;
+}
+
+.button-elim.dark {
+    background-color: #14171A;
+    color: white;
+    border: 1px solid rgb(16, 137, 202);
+}
+
+.button-elim:hover {
+    transition: 0.7s;
+  background-color: #0d6efd;
+  color: white;
+}
+
+ .custom-file-upload {
+    border: 1px solid rgb(0, 119, 181);
+    background-color: #e1e8ed;
+    color: rgb(0, 119, 181);
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+} 
+
+
+.custom-file-upload.dark {
+    background-color: #14171A;
+    color: white;
+    border: 1px solid rgb(16, 137, 202);
+}
+
+.custom-file-upload:hover {
+    transition: 0.7s;
+  background-color: #0d6efd;
+  color: white;
+}
+input[type="file"] {
+    display: none;
+}
+
+.cv-container {
+    margin-top: 3%;
+}
+

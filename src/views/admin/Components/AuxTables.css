@@ -1,0 +1,10 @@
+.select-tablas {
+    background-color: #E1E8ED;
+	border-radius:28px;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	text-decoration:none;
+    border: 1px solid rgb(0, 119, 181);
+    color: rgb(0, 119, 181);
+}

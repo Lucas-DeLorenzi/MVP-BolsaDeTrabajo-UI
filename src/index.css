@@ -1,0 +1,19 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+:root {
+  --color-green: #00a878;
+  --color-red: #fe5e41;
+  --color-button: #fdffff;
+  --color-black: #000;
+  --background-light: #f5f5f5;
+  --background-dark: #151515;
+  --background-dark2: #353535;
+  --background-medium: #888888;
+  --color-light: #101010;
+  --color-dark: #eee;
+  --color-medium: #888888;
+}
+body {
+  display: grid;
+  background: white;
+  min-height: 100vh;
+}

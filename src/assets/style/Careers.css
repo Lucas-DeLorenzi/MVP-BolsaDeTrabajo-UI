@@ -1,0 +1,17 @@
+.container-careers  {
+    margin-top: 2%;
+}
+
+.container-carreras-in {
+    border: 1px solid rgb(196, 196, 196) !important;
+    border-radius: 15px;
+    background-color: #e1e8ed;
+ 
+}
+
+
+.container-carreras-in.dark {
+    background-color: #14171A;
+    color: white;
+}
+

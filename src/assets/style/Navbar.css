@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-route li {
+    visibility: hidden;
+  }
+  .navbar-route {
+   background-color: #E1E8ED;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logoutn {
+    width: 170px;
+  }
+
+  .div-name-logout {
+ /*    background: white; */
+    display: flex;
+    padding-right: 15%;
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+  .logout-btn {
+    border-radius: 5px;
+    background:  var(--background-dark2);
+    color: white;
+    border-style: none;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+
+
+  }
+  .logout-btn:hover {
+    background: rgba(1, 224, 249, 0.665);
+    transition: 0.7s;
+    color: white;
+  }
+  .div-name-logout {
+    display: flex;
+    padding: 5px 5px 0 0;
+  }
+  .user-name {
+    font-weight: 600;
+  }
+  
+  .navbar-route.dark {
+     background-color: #14171A;
+    color: var(--color-dark)
+  }

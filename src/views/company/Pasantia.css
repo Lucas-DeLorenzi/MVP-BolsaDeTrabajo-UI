@@ -1,0 +1,152 @@
+.form-empresa-company {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    background: #E1E8ED;
+    padding-bottom: 1%;
+}
+
+
+.form-empresa-company.dark {
+    background: #14171A;
+    color: white;
+}
+
+.observacion-ofertas.dark {
+    background: #14171A;
+    color: white;
+    
+}
+
+
+.observacion-ofertas {
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
+    background: #E1E8ED;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bold;
+}
+
+.pasantia-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.checkbox-pasantia {
+    display: flex;
+}
+
+.checkbox-pasantia-min {
+    padding-left: 10%;
+}
+
+.labels-company-pasantia {
+    width: 30%;
+    background-color: #E1E8ED;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+    margin: auto;
+    padding: 1.5%;
+	text-decoration:none;
+    border: 1px solid rgb(0, 119, 181);
+    background-color: #E1E8ED;
+    color: rgb(0, 119, 181);
+}
+
+
+.labels-company-pasantia:hover {
+    transition: 0.7s;
+    background-color: rgb(18, 18, 250);
+    color: white;
+}
+
+.labels-company-pasantia.dark {
+    background-color: #14171A;
+    color: rgb(16, 137, 202);
+    border: 1px solid rgb(16, 137, 202);
+}
+
+.labels-company-pasantia.dark:hover {
+    background-color: rgb(16, 137, 202);
+    color: white;
+}
+
+.form-empresa-company{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.form-empresa-company.dark .form-control {
+    color: white;
+    border: 1px solid white;
+    background: #14171A;
+}
+.form-empresa-company.dark input {
+    background: #14171A;
+    color: white;
+  
+
+}
+
+.form-empresa-company.dark select {
+    background: #14171A;
+    color: white;
+}
+
+.form-empresa-company.dark .form-check-input {
+     background-color: grey ; 
+}
+
+.inputs-pasantias input {
+    border: 1px solid rgba(145, 145, 145, 0.4);
+}
+
+.labels-company {
+    background-color: #E1E8ED;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  padding: 10px 25px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid rgb(0, 119, 181);
+  color: rgb(0, 119, 181);
+  width: 50%;
+  margin-left: 26%;
+}
+
+.labels-company:hover {
+transition: 0.7s;
+  background-color: #0d6efd;
+  color: white;
+}
+.multiselect-container.multiSelectContainer.multiselect {
+    background-color: white;
+  }
+  
+  .dark .multiselect-container.multiSelectContainer.multiselect {
+    background-color: #14171A;
+  }
+
+  .searchBox {
+    border: none !important;
+  }
+
+  .dark .optionListContainer  {
+    background-color: #14171A;
+  }

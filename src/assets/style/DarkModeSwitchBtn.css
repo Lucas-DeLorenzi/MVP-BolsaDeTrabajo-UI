@@ -1,0 +1,48 @@
+.switch-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.switch-button__container{
+    display: flex;
+    width: 212px;
+    margin-top: 8px;
+    margin-left: 1%;
+}
+.switch-button__container__inside {
+    margin-right: 30px;
+    padding-left: 5%;
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+    
+}
+.switch-button .switch-button__label {
+    background-color: var(--color-red);
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+    position: relative;
+}
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
+.imagenes-logo-utn {
+    width: 150px;
+}

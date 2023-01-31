@@ -1,0 +1,117 @@
+.table-users {
+  width: 80%;
+  background-color: #E1E8ED;
+  text-align: center;
+  border: 1px solid rgb(170, 168, 168, 0.6);
+  align-items: center;
+}
+
+.table-users button {
+  border: 1px solid rgb(0, 119, 181);
+  background-color: #E1E8ED;
+  color: rgb(0, 119, 181);
+}
+
+.boton-carreras {
+  background-color: #E1E8ED;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  padding: 10px 25px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid rgb(0, 119, 181);
+  color: rgb(0, 119, 181);
+}
+
+.button-agregar-carrera {
+  background-color: #E1E8ED;
+  border-radius: 28px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(0, 119, 181);
+  border: 1px solid rgb(0, 119, 181);
+  font-family: Arial;
+  font-size: 17px;
+  padding: 9px 28px;
+  text-decoration: none;
+
+}
+
+
+.boton-carreras.dark,
+.button-agregar-carrera.dark {
+  background-color: var(--background-dark);
+  color: var(--color-dark);
+}
+
+.boton-carreras:hover,
+.button-agregar-carrera:hover {
+  transition: 0.7s;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.table-users button:hover {
+  transition: 0.7s;
+  background-color: rgb(18, 18, 250, 0.3);
+  color: blue;
+}
+
+.table-users.dark {
+  border: 1px solid white;
+  background-color: #14171A;
+  color: white;
+}
+
+
+.table-users.dark button {
+  background-color: #14171A;
+  color: white;
+  border: 1px solid rgb(16, 137, 202);
+}
+
+.table-users.dark button:hover {
+  background-color: rgb(16, 137, 202);
+  transition: 0.7s;
+  color: white;
+}
+
+.table-us {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs-pasantias.dark input{
+  background-color: #14171A;
+  color: white;
+  border: 1px solid white;
+}
+
+.inputs-jobs.dark input{
+  background-color: #373c41;
+  color: white;
+}
+
+.inputs-jobs.dark {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.inputs-jobs-cont.dark {
+  color: white;
+}
+
+.inputs-pasantias.dark {
+  color: white;
+}
+
+.error-pasantia.dark {
+  color: white;
+}

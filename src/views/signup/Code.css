@@ -1,0 +1,38 @@
+.code-container {
+    justify-content: center;
+}
+
+.code-container label{
+    font-weight: bold;
+}
+
+.code-container i {
+    border: 1px solid rgb(172, 172, 172);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.code-container input {
+    width: 100%;
+}
+
+#button-code {
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+
+.code-container .error {
+    margin: 0;
+}
+
+
+.code-blocks {
+    width: 500px;
+    padding: 10px;
+}
+
+.code-container form {
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 15px;
+}
